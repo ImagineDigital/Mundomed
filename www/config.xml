@@ -5,7 +5,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.mundomed.www"
         version   = "1.0.2"
-        android-versionCode="1.0.2
+        android-versionCode="1.0.2"
 	ios-CFBundleVersion="1.0.2" >
 
     <name>MUNDOMED Saúde Online</name>
