@@ -4,9 +4,9 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.mundomed.www"
-        version   = "43.0.2"
-        android-versionCode="43.0.2"
-	ios-CFBundleVersion="43.0.2" >
+        version   = "43"
+        android-versionCode="43"
+	ios-CFBundleVersion="43" >
 
     <name>MUNDOMED Saúde Online</name>
 
