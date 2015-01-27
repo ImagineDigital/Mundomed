@@ -30,29 +30,11 @@
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
   
 
-    <!-- Plugins -->
-
-    <!-- Core plugins
-    <gap:plugin name="org.apache.cordova.battery-status" />
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.media-capture" />
-    <gap:plugin name="org.apache.cordova.console" />
-    <gap:plugin name="org.apache.cordova.contacts" />
-    <gap:plugin name="org.apache.cordova.device" />
-    <gap:plugin name="org.apache.cordova.device-motion" />
-    <gap:plugin name="org.apache.cordova.device-orientation" />
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
-    <gap:plugin name="org.apache.cordova.globalization" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.vibration" /> -->
-	<gap:plugin name="org.apache.cordova.splashscreen" />
-
-
+     <!-- Plugin -->	
+   <gap:plugin name="org.apache.cordova.splashscreen" />
+   
+   
+    
 <!-- Adiciona Icones -->
     <!-- iPhone 6 / 6+ -->
     <icon src="res/icon/ios/icon-180x180.png" gap:platform="ios" width="180" height="180" />
@@ -90,14 +72,13 @@
     <icon src="res/icon/ios/icon-100x100.png" gap:platform="ios" width="100" height="100" />
     
     
+   
     
     <!-- Android -->
     <icon src="res/icon/android/drawable-ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
     <icon src="res/icon/android/drawable-mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
     <icon src="res/icon/android/drawable-hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
     <icon src="res/icon/android/drawable-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
-    <icon src="res/icon/android/drawable-xxhdpi.png" gap:platform="android" gap:qualifier="xxhdpi" />
-    <icon src="res/icon/android/drawable-fr-xxhdpi.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
 <!-- Fim dos icones -->
     
     
@@ -125,50 +106,14 @@
     
     
 <!-- Android Splash -->
-<gap:splash src="res/screen/android/drawable-port-ldpi.png" gap:platform="android" gap:qualifier="port-ldpi" />
-<gap:splash src="res/screen/android/drawable-land-ldpi.png" gap:platform="android" gap:qualifier="land-ldpi" />
-    
-<gap:splash src="res/screen/android/drawable-port-mdpi.png" gap:platform="android" gap:qualifier="port-mdpi" />
-<gap:splash src="res/screen/android/drawable-land-mdpi.png" gap:platform="android" gap:qualifier="land-mdpi" />
 
-<gap:splash src="res/screen/android/drawable-port-hdpi.png" gap:platform="android" gap:qualifier="port-hdpi" />
-<gap:splash src="res/screen/android/drawable-land-hdpi.png" gap:platform="android" gap:qualifier="land-hdpi" />
+<gap:splash src="res/screen/android/drawable-port-xhdpi.png" />
 
-<gap:splash src="res/screen/android/drawable-port-xhdpi.png" gap:platform="android" gap:qualifier="port-xhdpi" />
-<gap:splash src="res/screen/android/drawable-land-xhdpi.png" gap:platform="android" gap:qualifier="land-xhdpi" />
-
-<gap:splash src="res/screen/android/drawable-port-fr-xhdpi.png" gap:platform="android" gap:qualifier="port-fr-xhdpi" />
-<gap:splash src="res/screen/android/drawable-land-fr-xhdpi.png" gap:platform="android" gap:qualifier="land-fr-xhdpi" />
-  
-<gap:splash src="res/screen/android/drawable-port-xxhdpi.png" gap:platform="android" gap:qualifier="port-xxhdpi" />
-<gap:splash src="res/screen/android/drawable-land-xxhdpi.png" gap:platform="android" gap:qualifier="land-xxhdpi" />
-    
-    
-    
-<!-- Caso não consiga encontra o icone, segue o caminho par o ser utilizado por default -->
-<icon src="res/icon/icon.png" />
-    
-    
-	 
 <!-- Solicita acesso ao aparelho -->
 <feature name="http://api.phonegap.com/1.0/device" />
 <feature name="http://api.phonegap.com/1.0/network"/>
 <feature name="http://api.phonegap.com/1.0/geolocation"/>
 <feature name="http://api.phonegap.com/1.0/notification"/>
-
-    <!--
-        Define access to external domains.
-
-        <access />            - a blank access tag denies access to all external resources.
-        <access origin="*" /> - a wildcard access tag allows access to all external resource.
-
-        Otherwise, you can specify specific domains:
-    -->
-    <access origin="*"/>
-    <!--
-        <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
-        <access origin="http://phonegap.com" subdomains="true" />  - same as above, but including subdomains, such as http://build.phonegap.com/
-        <access origin="http://phonegap.com" browserOnly="true" /> - only allows http://phonegap.com to be opened by the child browser.
-    -->
-
+	
+	
 </widget>
