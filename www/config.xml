@@ -71,14 +71,16 @@
     <icon src="res/icon/ios/icon-50x50.png" gap:platform="ios" width="50" height="50" />
     <icon src="res/icon/ios/icon-100x100.png" gap:platform="ios" width="100" height="100" />
     
-    
-   
-    
     <!-- Android -->
     <icon src="res/icon/android/drawable-ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
     <icon src="res/icon/android/drawable-mdpi.png" gap:platform="android" gap:qualifier="mdpi" />
     <icon src="res/icon/android/drawable-hdpi.png" gap:platform="android" gap:qualifier="hdpi" />
     <icon src="res/icon/android/drawable-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi" />
+    
+    <!-- Windows Phone -->
+    <icon src="res/icon/windows-phone/icon-64.png"  gap:platform="webos" />
+    <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
+    <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 <!-- Fim dos icones -->
     
     
@@ -103,11 +105,13 @@
 <gap:splash src="res/screen/ios/splash-ios-1536x2048.png" gap:platform="ios" width="1536" height="2048" />
 <gap:splash src="res/screen/ios/splash-ios-2048x1536.png" gap:platform="ios" width="2048" height="1536" />
     
-    
-    
 <!-- Android Splash -->
-
 <gap:splash src="res/screen/android/drawable-port-xhdpi.png" />
+
+<!-- Window Phone Splash -->
+<gap:splash src="res/screen/windows-phone/screen-portrait.jpg"  gap:platform="winphone" />
+
+
 
 <!-- Solicita acesso ao aparelho -->
 <feature name="http://api.phonegap.com/1.0/device" />
